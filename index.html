@@ -3,17 +3,15 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Dev Portfolio — Full Stack & Creative Web Engineer</title>
+<title>Shashikant Portfolio — Full Stack, AI & Growth Engineer</title>
 
 <!-- Open Graph -->
-<meta property="og:title" content="Full Stack Developer & Creative Web Engineer"/>
-<meta property="og:description" content="I build scalable, high-performance web applications and immersive UI experiences using modern frontend, backend, and cloud technologies."/>
+<meta property="og:title" content="Shashikant — Full Stack, AI & Growth Engineer"/>
+<meta property="og:description" content="I build scalable web apps, AI-powered workflows, e-commerce systems, and growth-focused digital experiences."/>
 <meta property="og:type" content="website"/>
-<meta property="og:url" content="https://yourname.vercel.app"/>
-<meta property="og:image" content="https://yourname.vercel.app/og.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Full Stack Developer & Creative Web Engineer"/>
-<meta name="description" content="I build scalable, high-performance web applications and immersive UI experiences using Three.js, GSAP, Laravel, and cloud platforms."/>
+<meta name="twitter:title" content="Shashikant — Full Stack, AI & Growth Engineer"/>
+<meta name="description" content="Shashikant builds scalable Laravel, Shopify, WordPress, AI automation, and growth-focused web products."/>
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -27,17 +25,17 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#04040a;
-  --bg2:#080810;
-  --card:#0c0c18;
-  --border:rgba(255,255,255,0.06);
-  --border2:rgba(255,255,255,0.12);
-  --cyan:#00e5ff;
-  --lime:#b8ff57;
-  --pink:#ff4d8d;
-  --orange:#ff7a30;
-  --text:#dde2f0;
-  --muted:#606078;
+  --bg:#071016;
+  --bg2:#0b1720;
+  --card:#10212c;
+  --border:rgba(255,255,255,0.12);
+  --border2:rgba(255,255,255,0.22);
+  --cyan:#46e6ff;
+  --lime:#c7ff6b;
+  --pink:#ff6fa7;
+  --orange:#ff9b54;
+  --text:#f5f9ff;
+  --muted:#b7c2cf;
   --font-hero:'Bebas Neue',cursive;
   --font-body:'DM Sans',sans-serif;
   --font-mono:'JetBrains Mono',monospace;
@@ -51,7 +49,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);overflo
 body:hover #cur-o{opacity:1}
 
 /* ─── Nav ─── */
-nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:1.2rem 3rem;display:flex;align-items:center;justify-content:space-between;background:rgba(4,4,10,.75);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:1.2rem 3rem;display:flex;align-items:center;justify-content:space-between;background:rgba(7,16,22,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
 .nav-brand{font-family:var(--font-mono);font-size:.85rem;color:var(--cyan);letter-spacing:.15em}
 .nav-brand span{color:var(--text)}
 .nav-links{display:flex;gap:2.5rem;list-style:none}
@@ -71,7 +69,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:1.2rem 3rem;display:
 .hero-h1 .inner{display:inline-block;transform:translateY(110%)}
 .hero-h1 .c1{color:var(--cyan)}
 .hero-h1 .c2{color:var(--lime)}
-.hero-sub{font-family:var(--font-body);font-size:1.05rem;font-weight:300;color:var(--muted);line-height:1.8;max-width:500px;margin-bottom:2.8rem;opacity:0}
+.hero-sub{font-family:var(--font-body);font-size:1.08rem;font-weight:400;color:var(--muted);line-height:1.8;max-width:620px;margin-bottom:2.8rem;opacity:0}
 .hero-sub strong{color:var(--text);font-weight:500}
 .hero-btns{display:flex;gap:1rem;flex-wrap:wrap;opacity:0}
 .btn-primary{font-family:var(--font-mono);font-size:.72rem;padding:.85rem 2rem;background:var(--cyan);color:#000;border:none;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:all .3s;font-weight:500}
@@ -88,7 +86,7 @@ section{padding:7rem 3rem}
 .sec-kicker{font-family:var(--font-mono);font-size:.62rem;letter-spacing:.3em;color:var(--cyan);text-transform:uppercase;margin-bottom:1.2rem;display:flex;align-items:center;gap:.8rem}
 .sec-kicker::before{content:'';display:block;width:1.5rem;height:1px;background:var(--cyan)}
 .sec-title{font-family:var(--font-hero);font-size:clamp(3rem,6vw,5.5rem);line-height:.95;letter-spacing:.02em;margin-bottom:1.5rem}
-.sec-body{font-family:var(--font-body);font-size:.95rem;color:var(--muted);line-height:2;max-width:560px;font-weight:300}
+.sec-body{font-family:var(--font-body);font-size:1rem;color:var(--muted);line-height:2;max-width:620px;font-weight:400}
 
 /* ─── About ─── */
 #about{background:var(--bg2);border-top:1px solid var(--border)}
@@ -112,12 +110,12 @@ section{padding:7rem 3rem}
 .skill-cat-icon{font-size:1.6rem;margin-bottom:1.2rem}
 .skill-cat-title{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:1.4rem;color:var(--cat-color,var(--cyan))}
 .skill-list{list-style:none;display:flex;flex-direction:column;gap:.6rem}
-.skill-list li{font-family:var(--font-body);font-size:.88rem;color:var(--muted);display:flex;align-items:center;gap:.6rem;font-weight:300}
+.skill-list li{font-family:var(--font-body);font-size:.9rem;color:var(--muted);display:flex;align-items:center;gap:.6rem;font-weight:400}
 .skill-list li::before{content:'▸';color:var(--cat-color,var(--cyan));font-size:.7rem;flex-shrink:0}
 
 /* ─── Projects ─── */
 #projects{background:var(--bg2);border-top:1px solid var(--border)}
-.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);margin-top:4rem}
+.proj-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);margin-top:4rem}
 .proj-card{background:var(--bg2);padding:2.5rem 2rem;position:relative;overflow:hidden;cursor:pointer;transition:background .3s}
 .proj-card:hover{background:var(--card)}
 .proj-card::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--proj-color,var(--cyan)) 0%,transparent 60%);opacity:0;transition:opacity .4s}
@@ -125,9 +123,9 @@ section{padding:7rem 3rem}
 .proj-num{font-family:var(--font-hero);font-size:4.5rem;line-height:1;color:var(--border2);margin-bottom:1.5rem;transition:color .3s}
 .proj-card:hover .proj-num{color:var(--proj-color,var(--cyan))}
 .proj-title{font-family:var(--font-hero);font-size:1.8rem;letter-spacing:.02em;margin-bottom:.8rem;line-height:1}
-.proj-desc{font-family:var(--font-body);font-size:.85rem;color:var(--muted);line-height:1.9;font-weight:300}
+.proj-desc{font-family:var(--font-body);font-size:.9rem;color:var(--muted);line-height:1.9;font-weight:400}
 .proj-tech{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.5rem}
-.proj-tech span{font-family:var(--font-mono);font-size:.58rem;padding:.3rem .7rem;background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--muted);letter-spacing:.08em}
+.proj-tech span{font-family:var(--font-mono);font-size:.58rem;padding:.3rem .7rem;background:rgba(255,255,255,.07);border:1px solid var(--border);color:#d8e3ee;letter-spacing:.08em}
 .proj-arrow{position:absolute;top:2rem;right:2rem;font-size:1.2rem;color:var(--border2);transition:color .3s,transform .3s}
 .proj-card:hover .proj-arrow{color:var(--proj-color,var(--cyan));transform:translate(4px,-4px)}
 
@@ -138,12 +136,12 @@ section{padding:7rem 3rem}
 .srv-item:hover{background:var(--card)}
 .srv-num{font-family:var(--font-mono);font-size:.62rem;color:var(--cyan);letter-spacing:.1em;flex-shrink:0;padding-top:.15rem}
 .srv-title{font-family:var(--font-body);font-size:1rem;font-weight:500;margin-bottom:.5rem}
-.srv-desc{font-family:var(--font-body);font-size:.82rem;color:var(--muted);line-height:1.8;font-weight:300}
+.srv-desc{font-family:var(--font-body);font-size:.88rem;color:var(--muted);line-height:1.8;font-weight:400}
 
 /* ─── 3D Marquee / GSAP Ticker ─── */
 #motion{overflow:hidden;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);padding:2.5rem 0}
 .ticker-track{display:flex;gap:0;white-space:nowrap}
-.ticker-item{font-family:var(--font-hero);font-size:clamp(3rem,5vw,4.5rem);letter-spacing:.04em;padding:0 2.5rem;color:var(--muted);border-right:1px solid var(--border);flex-shrink:0;transition:color .3s}
+.ticker-item{font-family:var(--font-hero);font-size:clamp(3rem,5vw,4.5rem);letter-spacing:.04em;padding:0 2.5rem;color:#d9e3ee;border-right:1px solid var(--border);flex-shrink:0;transition:color .3s}
 .ticker-item:hover{color:var(--cyan)}
 .ticker-item.accent{color:var(--lime)}
 
@@ -158,7 +156,7 @@ section{padding:7rem 3rem}
 .contact-link.primary{background:var(--cyan);border-color:var(--cyan);color:#000;font-weight:500}
 .contact-link.primary:hover{background:var(--lime);border-color:var(--lime)}
 .contact-meta{font-family:var(--font-mono);font-size:.68rem;color:var(--muted);letter-spacing:.12em;line-height:2.2}
-.contact-meta a{color:var(--muted);text-decoration:none;transition:color .25s}
+.contact-meta a{color:#dce8f5;text-decoration:none;transition:color .25s}
 .contact-meta a:hover{color:var(--cyan)}
 
 /* ─── Footer ─── */
@@ -171,6 +169,9 @@ footer a:hover{color:var(--cyan)}
 body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.022;pointer-events:none;z-index:9990}
 
 /* ─── Responsive ─── */
+@media(max-width:1100px){
+  .proj-grid{grid-template-columns:repeat(2,1fr)}
+}
 @media(max-width:900px){
   .nav-links,.nav-hire{display:none}
   section{padding:5rem 1.5rem}
@@ -196,7 +197,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 
 <!-- ─── Nav ─── -->
 <nav>
-  <div class="nav-brand"><span>[</span> DEV <span style="color:var(--cyan)">·</span> PORTFOLIO <span>]</span></div>
+  <div class="nav-brand"><span>[</span> SHASHIKANT <span style="color:var(--cyan)">·</span> PORTFOLIO <span>]</span></div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -211,13 +212,13 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 <section id="hero">
   <canvas id="hero-canvas"></canvas>
   <div class="hero-inner">
-    <p class="hero-tag">Full Stack & Creative Web Engineer</p>
+    <p class="hero-tag">Full Stack, AI Automation & Growth Engineer</p>
     <h1 class="hero-h1">
       <span class="row"><span class="inner">Hi, I'm</span></span>
-      <span class="row"><span class="inner c1">Your</span></span>
-      <span class="row"><span class="inner c2">Shashikant.</span></span>
+      <span class="row"><span class="inner c1">Shashikant</span></span>
+      <span class="row"><span class="inner c2">Kumar.</span></span>
     </h1>
-    <p class="hero-sub">I build <strong>scalable, high-performance</strong> web applications and <strong>immersive UI experiences</strong> using modern frontend, backend, and cloud technologies.</p>
+    <p class="hero-sub">I build <strong>scalable web products</strong>, <strong>AI-powered workflows</strong>, Shopify/Laravel systems, and growth-focused digital experiences that are fast, clear, and ready for real customers.</p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View My Work</a>
       <a href="#contact" class="btn-outline">Let's Talk →</a>
@@ -232,8 +233,8 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 <!-- ─── Ticker ─── -->
 <div id="motion">
   <div class="ticker-track" id="ticker">
-    <div class="ticker-item">THREE.JS</div>
-    <div class="ticker-item accent">GSAP</div>
+    <div class="ticker-item">AI TOOLS</div>
+    <div class="ticker-item accent">AUTOMATION</div>
     <div class="ticker-item">LARAVEL</div>
     <div class="ticker-item accent">SHOPIFY</div>
     <div class="ticker-item">AWS</div>
@@ -257,9 +258,9 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
     <p class="sec-kicker">01 — About Me</p>
     <div class="about-grid">
       <div>
-        <h2 class="sec-title">Passionate.<br/>Precise.<br/><span style="color:var(--cyan)">Productive.</span></h2>
-        <p class="sec-body">Full Stack Developer with a B.Tech (2020), specialising in building modern, scalable, and user-focused web applications. I create seamless digital experiences — from high-performance APIs to visually engaging UI/UX — with clean architecture and production-ready deployment.</p>
-        <p class="sec-body" style="margin-top:1rem">I focus on <span style="color:var(--lime)">performance optimisation</span>, clean code, and cloud deployment to ship solutions that actually work under load.</p>
+        <h2 class="sec-title">Builder.<br/>Problem Solver.<br/><span style="color:var(--cyan)">Growth Focused.</span></h2>
+        <p class="sec-body">Full Stack Developer with a B.Tech (2020), specialising in modern web apps, Shopify stores, Laravel systems, WordPress builds, and practical AI automation. I create digital products that look polished, load fast, and support business growth.</p>
+        <p class="sec-body" style="margin-top:1rem">I focus on <span style="color:var(--lime)">performance, automation, conversion, and clean code</span> so every project is useful, maintainable, and ready to scale.</p>
         <div class="about-tags" style="margin-top:2rem">
           <span class="tag">B.Tech 2020</span>
           <span class="tag">Full Stack</span>
@@ -267,6 +268,8 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
           <span class="tag">Full-Time</span>
           <span class="tag">India 🇮🇳</span>
           <span class="tag">Open to Work</span>
+          <span class="tag">AI Projects</span>
+          <span class="tag">Growth Systems</span>
         </div>
       </div>
       <div>
@@ -285,7 +288,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
           </div>
           <div class="stat">
             <div class="stat-num" data-target="10">0</div>
-            <div class="stat-label">Technologies</div>
+            <div class="stat-label">Core Skills</div>
           </div>
         </div>
       </div>
@@ -298,7 +301,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
   <div class="max">
     <div class="skills-header">
       <p class="sec-kicker">02 — Technical Skills</p>
-      <h2 class="sec-title">The Stack<br/>I Build With.</h2>
+      <h2 class="sec-title">Skills That<br/>Move Products.</h2>
     </div>
     <div class="skills-categories">
       <div class="skill-cat" style="--cat-color:var(--cyan)">
@@ -358,13 +361,13 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
       </div>
       <div class="skill-cat" style="--cat-color:var(--lime)">
         <div class="skill-cat-icon">🚀</div>
-        <div class="skill-cat-title">Tools &amp; More</div>
+        <div class="skill-cat-title">AI &amp; Growth</div>
         <ul class="skill-list">
-          <li>Git &amp; GitHub</li>
-          <li>Open Graph / SEO</li>
-          <li>Figma (Handoff)</li>
-          <li>Postman / API Testing</li>
-          <li>Performance Audit</li>
+          <li>AI Chatbot Flows</li>
+          <li>AI API Integrations</li>
+          <li>Automation Workflows</li>
+          <li>SEO &amp; Conversion Tracking</li>
+          <li>Performance Audits</li>
         </ul>
       </div>
     </div>
@@ -375,7 +378,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 <section id="projects">
   <div class="max">
     <p class="sec-kicker">03 — Selected Work</p>
-    <h2 class="sec-title">Projects That<br/><span style="color:var(--lime)">Ship.</span></h2>
+    <h2 class="sec-title">Projects That<br/><span style="color:var(--lime)">Grow.</span></h2>
     <div class="proj-grid">
       <div class="proj-card" style="--proj-color:var(--orange)">
         <div class="proj-arrow">↗</div>
@@ -398,10 +401,19 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
       <div class="proj-card" style="--proj-color:var(--cyan)">
         <div class="proj-arrow">↗</div>
         <div class="proj-num">03</div>
-        <h3 class="proj-title">3D Interactive Website</h3>
-        <p class="proj-desc">Immersive marketing site using Three.js 3D scenes with GSAP scroll-based animation. Fully responsive, GPU-optimised for mobile, deployed on Vercel Edge with sub-second load times.</p>
+        <h3 class="proj-title">AI Support Assistant</h3>
+        <p class="proj-desc">AI-powered support and lead qualification assistant for websites. Captures customer questions, suggests helpful answers, routes leads, and reduces repetitive manual replies.</p>
         <div class="proj-tech">
-          <span>Three.js</span><span>GSAP</span><span>WebGL</span><span>Vercel</span>
+          <span>AI API</span><span>JavaScript</span><span>API</span><span>Automation</span>
+        </div>
+      </div>
+      <div class="proj-card" style="--proj-color:var(--pink)">
+        <div class="proj-arrow">↗</div>
+        <div class="proj-num">04</div>
+        <h3 class="proj-title">Growth Automation Stack</h3>
+        <p class="proj-desc">Lead forms, CRM sync, WhatsApp/email follow-ups, analytics events, and admin dashboards connected into one practical growth workflow.</p>
+        <div class="proj-tech">
+          <span>Laravel</span><span>CRM</span><span>Webhooks</span><span>Analytics</span>
         </div>
       </div>
     </div>
@@ -452,8 +464,8 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
       <div class="srv-item">
         <span class="srv-num">06</span>
         <div>
-          <div class="srv-title">3D &amp; Interactive Experiences</div>
-          <div class="srv-desc">Immersive web interfaces with Three.js and GSAP — interactive 3D scenes, smooth scroll animations, and WebGL effects.</div>
+          <div class="srv-title">AI Automation &amp; Growth Tools</div>
+          <div class="srv-desc">AI chatbots, lead capture flows, CRM automations, reporting dashboards, and integrations that save time and improve conversion.</div>
         </div>
       </div>
     </div>
@@ -465,15 +477,15 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
   <div class="max">
     <div class="contact-inner">
       <p class="sec-kicker" style="justify-content:center">05 — Contact</p>
-      <h2 class="contact-big">Let's Build<br/>Something<br/><span class="cc">Amazing.</span></h2>
+      <h2 class="contact-big">Let's Build<br/>Something<br/><span class="cc">That Grows.</span></h2>
       <div class="contact-links">
-        <a href="mailto:your@email.com" class="contact-link primary">Send Email</a>
-        <a href="https://linkedin.com" target="_blank" class="contact-link">LinkedIn →</a>
-        <a href="https://github.com" target="_blank" class="contact-link">GitHub →</a>
+        <a href="#contact" class="contact-link primary">Start a Project</a>
+        <a href="#contact" class="contact-link">LinkedIn →</a>
+        <a href="#contact" class="contact-link">GitHub →</a>
       </div>
       <div class="contact-meta">
-        <div>📧 <a href="mailto:your@email.com">your@email.com</a></div>
-        <div>📞 <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a></div>
+        <div>Open for freelance, full-time, and AI automation projects</div>
+        <div>Share your real email, phone, LinkedIn, and GitHub to make this section fully live</div>
         <div>📍 India</div>
         <div style="margin-top:.8rem;color:var(--cyan)">✦ Available for freelance &amp; full-time opportunities</div>
       </div>
@@ -483,12 +495,12 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 
 <!-- ─── Footer ─── -->
 <footer>
-  <div>© 2025 Your Name — All rights reserved</div>
+  <div>© 2026 Shashikant Kumar — All rights reserved</div>
   <div class="footer-right">
     <a href="#hero">Top ↑</a>
-    <a href="mailto:your@email.com">Email</a>
-    <a href="https://github.com" target="_blank">GitHub</a>
-    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact">GitHub</a>
+    <a href="#contact">LinkedIn</a>
   </div>
 </footer>
 
